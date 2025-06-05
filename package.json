@@ -1,2 +1,27 @@
-npm init -y
-npm install express axios body-parser dotenv pdf-lib node-telegram-bot-api
+{
+  "name": "telegram-pdf-merger-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that merges multiple PDF files using pdf-lib and serves via Express with webhook.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "pdf",
+    "merge",
+    "pdf-lib",
+    "express",
+    "webhook"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
