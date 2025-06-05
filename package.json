@@ -1,15 +1,2 @@
-{
-  "name": "telegram-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "pdf-lib": "^1.17.1",
-    "dotenv": "^16.4.5",
-    "axios": "^1.6.0"
-    
-  }
-}
+npm init -y
+npm install express axios body-parser dotenv pdf-lib node-telegram-bot-api
